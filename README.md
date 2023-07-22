@@ -21,7 +21,7 @@ Follow the [official guide](https://gtsam.org/get_started/) to install GTSAM
 Follow the [official guide](https://pointclouds.org/downloads/) to install PCL
 ### Ubuntu packages
 ```angular2html
-sudo apt install cmake libeigen3-dev libboost-all-dev yaml-cpp libgoogle-glog-dev
+sudo apt install cmake libeigen3-dev libboost-all-dev libgoogle-glog-dev libyaml-cpp-dev
 ```
 
 ## Build and Run
