@@ -61,7 +61,7 @@ cd src/Pagor
 ## Citation
 If you find this work useful in your research, please consider citing:
 ```
-@INPROCEEDINGS{qiao_monolam,
+@INPROCEEDINGS{qiao_pagor,
   author={Zhijian Qiao, Zehuan Yu, Huan Yin and Shaojie Shen},
   booktitle={2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)}, 
   title={Pyramid Semantic Graph-based Global Point Cloud Registration with Low Overlap}, 
