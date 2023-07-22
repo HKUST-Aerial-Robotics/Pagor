@@ -1,0 +1,33 @@
+<?xml version="1.0"?>
+<package format="2">
+    <name>segregator</name>
+    <version>0.0.0</version>
+    <description>Robust global registration</description>
+
+    <maintainer email="pengyu001@ntu.edu.sg">Pengyu Yin</maintainer>
+
+    <buildtool_depend>catkin</buildtool_depend>
+    <exec_depend>message_generation</exec_depend>
+    <exec_depend>libpcl-all</exec_depend>
+    <exec_depend>roscpp</exec_depend>
+    <exec_depend>rospy</exec_depend>
+    <exec_depend>std_msgs</exec_depend>
+    <exec_depend>nav_msgs</exec_depend>
+    <exec_depend>sensor_msgs</exec_depend>
+    <exec_depend>geometry_msgs</exec_depend>
+    <exec_depend>tf</exec_depend>
+    <build_depend>geometry_msgs</build_depend>
+    <build_depend>roscpp</build_depend>
+    <build_depend>rospy</build_depend>
+    <build_depend>std_msgs</build_depend>
+    <build_depend>nav_msgs</build_depend>
+    <build_depend>roslaunch</build_depend>
+    <build_depend>libpcl-all-dev</build_depend>
+    <build_depend>message_generation</build_depend>
+    <build_depend>sensor_msgs</build_depend>
+    <build_depend>tf</build_depend>
+    <license>Apache License 2.0</license>
+    <export>
+
+    </export>
+</package>

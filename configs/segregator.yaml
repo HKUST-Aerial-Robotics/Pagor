@@ -1,0 +1,75 @@
+dataset:
+  name: kitti
+  dataset_path: "/media/qzj/Document/datasets/KITTI/odometry/data_odometry_velodyne/dataset/sequences"
+  split_dir: "data_split/kitti"
+  label_dir: "/labels_salsanext/"
+
+# params for graph construction
+noise_level: 0.2
+solving_w_cov: true # use cov to test compatibility
+# incompatible w(cov1, cov2) < distribution_noise_level
+distribution_noise_level: 5
+
+# params for pyramid graph construction
+metric:
+  name: "WASSERSTEIN_RELAXED"
+  sigma: 0.2 # standard deviation for Gaussian kernel
+  # abs((v1.norm/v2.norm) - scale) < noise_level * 2 && abs(v2.norm/v1.norm - scale) < noise_level * 2
+  noise_level_list: [ 0.01, 0.02, 0.04, 0.08 ]
+  cov_thd_list: [ 1.0, 2.5, 5.0, 10.0 ]
+
+# params for clique solver CLIPPER
+solver: "teaser" # "clipper" or "teaser"
+tol_u: 1e-8 # stop when change in u < tol
+tol_F: 1e-9 # stop when change in F < tol
+tol_Fop: 1e-10 # stop when ||dFop|| < tol
+maxiniters: 200 # max num of gradient ascent steps for each d
+maxoliters: 1000 # max num of outer loop iterations to find d
+beta: 0.25 # backtracking step size reduction, in (0, 1)
+maxlsiters: 99 # maximum number of line search iters per grad step
+eps: 1e-9 # numerical threshold around 0
+affinityeps: 1e-4 # sparsity-promoting threshold for affinities
+
+# params for semantic object segmentation
+building_param:
+  use_building: true
+  use_DCVC: true
+  DCVC_min_num: 20
+  class_num: 50
+  min_dist: 0.2
+  min_num: 50
+  max_num: 500
+
+car_param:
+  use_car: true
+  use_DCVC: true
+  DCVC_min_num: 30
+  class_num: 10
+  min_dist: 0.2
+  min_num: 50
+  max_num: 500
+
+vegetation_param:
+  use_veg: false
+  use_DCVC: true
+  DCVC_min_num: 80
+  class_num: 70
+  min_dist: 0.2
+  min_num: 20
+  max_num: 1000
+
+trunk_param:
+  use_trunk: true
+  use_DCVC: true
+  DCVC_min_num: 15
+  class_num: 18
+  min_dist: 0.1
+  min_num: 30
+  max_num: 1000
+
+DCVC_param:
+  startR: 0.35    # Surface voxel initial polar diameter resolution
+  deltaR: 0.0004  # Pole diameter increment
+  deltaP: 1.2     # Pitch angle increment
+  deltaA: 1.2     # Azimuth increment
+  minSeg: 80      # After splitting, how many points are at least one category, and categories smaller than this number will be filtered out
