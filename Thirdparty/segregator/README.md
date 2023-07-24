@@ -1,12 +1,3 @@
-复现
-
-1. scorePairwiseConsistencyGaussian 允许相同匹配
-2. 度量
-3. trunk的索引bug
-4. 问题不在前端
-5. 随机初始化X
-6. 图的建立不一样X
-
 # ***Segregator***: Global Point Cloud Registration with Semantic and Geometric Cues
 
 **Pengyu Yin**, **Shenghai Yuan**, **[Haozhi Cao](https://www.researchgate.net/profile/Haozhi-Cao)**, **Xingyu Ji**, *
