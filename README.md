@@ -22,7 +22,7 @@
 
 This is the official code repository of "Pyramid Semantic Graph-based Global Point Cloud Registration with Low Overlap", which is accepted by IROS'23.
 
-Pagor (PyrAmid Gaph-based GlObal Registration) is a robust global point cloud registration algorithm for LiDAR. It takes two point clouds and their semantic labels as input and estimates the relative pose between them.
+Pagor (PyrAmid Graph-based GlObal Registration) is a robust global point cloud registration algorithm for LiDAR. It takes two point clouds and their semantic labels as input and estimates the relative pose between them.
 
 <div align="center">
     <img src="./docs/cover.png" width="640" alt="cover">
