@@ -29,7 +29,7 @@ Pagor (PyrAmid Graph-based GlObal Registration) is a robust global point cloud r
 </div>
 
 ## NEWS
-- An **improved version** can be found in **[G3Reg](https://github.com/HKUST-Aerial-Robotics/G3Reg)sud**.
+- An **improved version** can be found in **[G3Reg](https://github.com/HKUST-Aerial-Robotics/G3Reg)**.
 - Welcome to try our new **[LiDAR Registration Benchmark](https://github.com/HKUST-Aerial-Robotics/LiDAR-Registration-Benchmark)** which is a comprehensive benchmark for LiDAR registration in robotic applications.
 
 ## Prerequisites
