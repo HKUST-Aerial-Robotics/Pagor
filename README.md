@@ -3,6 +3,19 @@
 </div>
 <div align="center">
 <a href="https://arxiv.org/abs/2307.12116"><img src="https://img.shields.io/badge/arXiv-2307.12116-004088.svg"/></a>
+<a href="https://www.youtube.com/watch?v=BPqbjhZ0FWQ&t=1s">
+<img alt="Youtube" src="https://img.shields.io/badge/Video-Youtube-red"/>
+</a>
+<a ><img alt="PRs-Welcome" src="https://img.shields.io/badge/PRs-Welcome-red" /></a>
+<a href="https://github.com/HKUST-Aerial-Robotics/Pagor/stargazers">
+<img alt="stars" src="https://img.shields.io/github/stars/HKUST-Aerial-Robotics/Pagor" />
+</a>
+<a href="https://github.com/HKUST-Aerial-Robotics/Pagor/network/members">
+<img alt="FORK" src="https://img.shields.io/github/forks/HKUST-Aerial-Robotics/Pagor?color=FF8000" />
+</a>
+<a href="https://github.com/HKUST-Aerial-Robotics/Pagor/issues">
+<img alt="Issues" src="https://img.shields.io/github/issues/HKUST-Aerial-Robotics/Pagor?color=0088ff"/>
+</a>
 </div>
 
 ## Introduction
@@ -16,7 +29,7 @@ Pagor (PyrAmid Gaph-based GlObal Registration) is a robust global point cloud re
 </div>
 
 ## NEWS
-- An **improved version** can be found in **[G3Reg](https://github.com/HKUST-Aerial-Robotics/G3Reg)**.
+- An **improved version** can be found in **[G3Reg](https://github.com/HKUST-Aerial-Robotics/G3Reg)sud**.
 - Welcome to try our new **[LiDAR Registration Benchmark](https://github.com/HKUST-Aerial-Robotics/LiDAR-Registration-Benchmark)** which is a comprehensive benchmark for LiDAR registration in robotic applications.
 
 ## Prerequisites
