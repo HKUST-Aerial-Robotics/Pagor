@@ -81,13 +81,14 @@ cd src/Pagor
 ## Citation
 If you find this work useful in your research, please consider citing:
 ```
-@INPROCEEDINGS{qiao_pagor,
-  author={Zhijian Qiao, Zehuan Yu, Huan Yin and Shaojie Shen},
-  booktitle={2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)}, 
-  title={Pyramid Semantic Graph-based Global Point Cloud Registration with Low Overlap}, 
+@inproceedings{qiao2023pyramid,
+  title={Pyramid Semantic Graph-based Global Point Cloud Registration with Low Overlap},
+  author={Qiao, Zhijian and Yu, Zehuan and Yin, Huan and Shen, Shaojie},
+  booktitle={2023 IEEE/RSJ International Conference on Intelligent Robots and Systems (IROS)},
+  pages={11202--11209},
   year={2023},
-  volume={},
-  number={}}
+  organization={IEEE}
+}
 ```
 
 ## License
